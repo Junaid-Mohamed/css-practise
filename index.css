@@ -1,24 +1,33 @@
-div {
-  margin: 10px;
-  padding: 20px;
+.item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid black;
 }
 
-.simple {
-  box-shadow: 5px 5px 10px #888888;
+.container {
+  display: flex;
 }
 
-.inset {
-  box-shadow: inset 3px 3px 5px #888888;
+.flex-start {
+  justify-content: flex-start;
 }
 
-.multiple {
-  box-shadow: 3px 3px 5px #888888, -3px -3px 5px #888888;
+.flex-end {
+  justify-content: flex-end;
 }
 
-.spread {
-  box-shadow: 0 0 10px 5px #888888;
+.center {
+  justify-content: center;
 }
 
-.RGBA-transparency {
-  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
 }
